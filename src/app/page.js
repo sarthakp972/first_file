@@ -42,7 +42,7 @@ const togglePlay = () => {
     return (
       <div>
       <video ref={videoRef} controls style={{  backgroundColor:"red", width:"350px",height:"600px"}} > 
-        <source src=" http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"/* {user&&user[1]&&user[1].videoUrl}*/  type="video/mp4" />
+        <source src= user&&user[1]&&user[1].videoUrl  type="video/mp4" />
         {console.log("your-url",user&&user[1]&&user[1].videoUrl)}
 
        
