@@ -3,7 +3,8 @@ import React from 'react'
 function page() {
   return (
     <div>
-      hello wprld
+      hello world
+    
     </div>
   )
 }
